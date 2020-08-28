@@ -2,6 +2,8 @@
 @import "helpers/variables";
 @import "helpers/mixins";
 
+//Global Style
+@import "layout/global";
 // import The first thing in the page
 @import "layout/header";
 

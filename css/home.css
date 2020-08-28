@@ -1,29 +1,42 @@
+body {
+  font-family: Tahoma, sans-serif;
+}
+
 .header {
   margin: 10px;
+  padding: 20px;
+  overflow: hidden;
 }
 .header div.logo {
   float: left;
 }
 .header div.logo h1 {
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .header div.logo span {
   color: #a2a2a2;
 }
 .header nav ul {
-  list-style: none;
   float: right;
+  list-style: none;
   background-color: #e2494c;
-  padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
+  padding: 0px;
+  text-transform: uppercase;
 }
 .header nav ul li {
-  padding: 10px;
+  padding: 20px;
   float: left;
+  background-color: #e2494c;
+  border-radius: 10px;
 }
 .header nav ul li a {
   text-decoration: none;
   color: #FFF;
+}
+.header nav ul li:hover {
+  background-color: #d03f42;
 }
 
 * {
@@ -42,30 +55,39 @@
 
 .header {
   margin: 10px;
+  padding: 20px;
+  overflow: hidden;
 }
 .header div.logo {
   float: left;
 }
 .header div.logo h1 {
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .header div.logo span {
   color: #a2a2a2;
 }
 .header nav ul {
-  list-style: none;
   float: right;
+  list-style: none;
   background-color: #e2494c;
-  padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
+  padding: 0px;
+  text-transform: uppercase;
 }
 .header nav ul li {
-  padding: 10px;
+  padding: 20px;
   float: left;
+  background-color: #e2494c;
+  border-radius: 10px;
 }
 .header nav ul li a {
   text-decoration: none;
   color: #FFF;
+}
+.header nav ul li:hover {
+  background-color: #d03f42;
 }
 
 /*# sourceMappingURL=home.css.map */
