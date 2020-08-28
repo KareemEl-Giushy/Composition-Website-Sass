@@ -1,0 +1,16 @@
+// Global
+@import "helpers/variables";
+@import "helpers/mixins";
+
+// import The first thing in the page
+@import "layout/header";
+
+// commponents
+@import "commponents/buttons";
+// layout
+@import "layout/grid";
+//import pages
+@import "pages/home";
+
+// import the last thing in the page
+@import "layout/footer";

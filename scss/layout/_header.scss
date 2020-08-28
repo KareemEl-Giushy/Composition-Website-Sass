@@ -1,0 +1,29 @@
+.header {
+  margin: 10px;
+  div.logo {
+    float: left;
+    h1 {
+      margin-bottom: 10px;
+    }
+    span {
+      color: $grayColor;
+    }
+  }
+  nav {
+    ul {
+      list-style: none;
+      float: right;
+      background-color: $redColor;
+      padding: 10px;
+      border-radius: 5px;
+      li {
+        padding: 10px;
+        float: left;
+        a {
+          text-decoration: none;
+          color:#FFF;
+        }
+      }
+    }
+  }
+}

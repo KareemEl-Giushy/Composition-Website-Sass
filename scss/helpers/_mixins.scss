@@ -1,0 +1,38 @@
+
+// An overlay Mixin
+// it Takes (<BackgroundColor>, <TransitionValue> optional)
+@mixin overlay($bg, $val: all 0.5s ease) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $bg;
+  transition: $val;
+}
+
+// A prefix Mixin
+// it Takes (<property>, <value>, <prefixs> optional)
+@mixin prefixer($prop, $val, $pres: webkit moz o ms) {
+  
+  @each $pre in $pres {
+    #{"-" + $pre + "-" + $prop}: $val;
+  }
+  
+  #{$prop} : $val;
+}
+
+// A keyFrame prefixer Mixin
+@mixin keyPrefixer($name, ) {
+
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name}{
+    @content;
+  }
+  @keyframes #{$name}{
+    @content;
+  }
+
+}
