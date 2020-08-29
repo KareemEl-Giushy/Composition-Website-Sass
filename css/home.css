@@ -90,4 +90,17 @@ body {
   background-color: #d03f42;
 }
 
+div.slider-section p {
+  text-align: center;
+  width: 65%;
+  margin: 30px auto;
+  line-height: 2rem;
+  font-size: 25px;
+  padding: 10px;
+}
+div.slider-section div.slider {
+  padding: 10px;
+  margin: 0 auto 30px;
+}
+
 /*# sourceMappingURL=home.css.map */
