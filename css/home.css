@@ -130,7 +130,15 @@ div.slider-section div.bullets ul li {
   float: left;
   width: 20px;
   height: 20px;
+  -webkit-border: 2px solid;
+  -moz-border: 2px solid;
+  -o-border: 2px solid;
+  -ms-border: 2px solid;
   border: 2px solid;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
   border-radius: 50%;
   margin: 2px;
   cursor: pointer;

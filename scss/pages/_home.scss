@@ -37,8 +37,8 @@ div.slider-section {
         float: left;
         width: 20px;
         height: 20px;
-        border: 2px solid;
-        border-radius: 50%;
+        @include prefixer(border, 2px solid);
+        @include prefixer(border-radius, 50%);
         margin: 2px;
         cursor: pointer;
         &:hover {
