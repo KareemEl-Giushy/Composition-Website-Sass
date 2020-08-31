@@ -2,6 +2,10 @@ body {
   font-family: Tahoma, sans-serif;
 }
 
+.bullet-activate {
+  background: #000;
+}
+
 .header {
   margin: 10px;
   padding: 20px;
@@ -101,6 +105,38 @@ div.slider-section p {
 div.slider-section div.slider {
   padding: 10px;
   margin: 0 auto 30px;
+  overflow: hidden;
+}
+div.slider-section div.slider .imgs {
+  list-style: none;
+  width: 310%;
+  padding: 0 0 0 4%;
+}
+div.slider-section div.slider .imgs li {
+  float: left;
+  width: calc(100% / 3);
+}
+div.slider-section div.slider .imgs li img {
+  width: 90%;
+  height: 50vh;
+}
+div.slider-section div.bullets ul {
+  list-style: none;
+  width: 112px;
+  margin: auto;
+  padding: 0;
+}
+div.slider-section div.bullets ul li {
+  float: left;
+  width: 20px;
+  height: 20px;
+  border: 2px solid;
+  border-radius: 50%;
+  margin: 2px;
+  cursor: pointer;
+}
+div.slider-section div.bullets ul li:hover {
+  background: #000;
 }
 
 /*# sourceMappingURL=home.css.map */
